@@ -219,6 +219,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -263,8 +265,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -333,8 +333,6 @@
 							<string>0pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -371,9 +369,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>7960EE9C0D00E66400BD62A1</string>
+				<string>7960EF760D00EBF700BD62A1</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>7960EE9D0D00E66400BD62A1</string>
+				<string>7960EF770D00EBF700BD62A1</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -507,13 +505,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>7960EEC70D00E6C900BD62A1</string>
-		<string>7960EEC80D00E6C900BD62A1</string>
-		<string>7960EE510D00DF0A00BD62A1</string>
-		<string>1C0AD2B3069F1EA900FABCE6</string>
-		<string>7960EE300D00DEB200BD62A1</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>7960EEB60D00E66400BD62A1</string>
 		<string>/Users/wolf/code/sf/redshed/cocoa/SafariSessionSaver/SafariSessionSaver.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -533,12 +524,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>&lt;No Editor&gt;</string>
+								<string>SafariSessionSaver_AppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -555,8 +548,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -596,7 +587,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>7960EE300D00DEB200BD62A1</string>
-				<string>7960EEAF0D00E66400BD62A1</string>
+				<string>7960EF560D00EBA900BD62A1</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
