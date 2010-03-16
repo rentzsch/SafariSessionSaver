@@ -1,7 +1,6 @@
 #import "SafariSessionSaver_AppDelegate.h"
 #import "NSAppleScript+CallHandler.h"
 #import "nsenumerate.h"
-#import "CoreData+JRExtensions.h"
 #import "SessionMO.h"
 #import "PageMO.h"
 
@@ -45,9 +44,9 @@ static void scriptErrorToNSError(NSDictionary *scriptError, NSError **nserror) {
 		NSArray *urls = [[scriptResultDesc stringValue] componentsSeparatedByString:@"\t"];
 		if ([urls count]) {
 			NSManagedObjectContext *moc = [self managedObjectContext];
-			SessionMO *session = [SessionMO newInManagedObjectContext:moc];
+			SessionMO *session = [SessionMO insertInManagedObjectContext:moc];
 			nsenumerate(urls, NSString, url) {
-				PageMO *page = [PageMO newInManagedObjectContext:moc];
+				PageMO *page = [PageMO insertInManagedObjectContext:moc];
 				[page setUrl:url];
 				[session addPagesObject:page];
 			}

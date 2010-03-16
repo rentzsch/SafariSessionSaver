@@ -3,43 +3,34 @@
 
 #import "_PageMO.h"
 
+@implementation PageMOID
+@end
+
 @implementation _PageMO
 
-
-
-- (NSString*)url {
-	[self willAccessValueForKey:@"url"];
-	NSString *result = [self primitiveValueForKey:@"url"];
-	[self didAccessValueForKey:@"url"];
-	return result;
++ (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_ {
+	NSParameterAssert(moc_);
+	return [NSEntityDescription insertNewObjectForEntityForName:@"Page" inManagedObjectContext:moc_];
 }
 
-- (void)setUrl:(NSString*)value_ {
-	[self willChangeValueForKey:@"url"];
-	[self setPrimitiveValue:value_ forKey:@"url"];
-	[self didChangeValueForKey:@"url"];
+- (PageMOID*)objectID {
+	return (PageMOID*)[super objectID];
 }
 
 
 
 
+@dynamic url;
 
+
+
+
+
+
+@dynamic newRelationship;
 
 	
 
-- (SessionMO*)newRelationship {
-	[self willAccessValueForKey:@"newRelationship"];
-	SessionMO *result = [self primitiveValueForKey:@"newRelationship"];
-	[self didAccessValueForKey:@"newRelationship"];
-	return result;
-}
 
-- (void)setNewRelationship:(SessionMO*)value_ {
-	[self willChangeValueForKey:@"newRelationship"];
-	[self setPrimitiveValue:value_ forKey:@"newRelationship"];
-	[self didChangeValueForKey:@"newRelationship"];
-}
-
-	
 
 @end

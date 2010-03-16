@@ -4,33 +4,42 @@
 #import <CoreData/CoreData.h>
 
 
-
 @class PageMO;
 
+@interface SessionMOID : NSManagedObjectID {}
+@end
 
 @interface _SessionMO : NSManagedObject {}
++ (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
+- (SessionMOID*)objectID;
 
 
-- (NSString*)name;
-- (void)setName:(NSString*)value_;
+
+@property (nonatomic, retain) NSString *name;
 
 //- (BOOL)validateName:(id*)value_ error:(NSError**)error_;
 
 
 
-- (NSDate*)creationDate;
-- (void)setCreationDate:(NSDate*)value_;
+@property (nonatomic, retain) NSDate *creationDate;
 
 //- (BOOL)validateCreationDate:(id*)value_ error:(NSError**)error_;
 
 
 
 
+@property (nonatomic, retain) NSSet* pages;
+- (NSMutableSet*)pagesSet;
+
+
+
+@end
+
+@interface _SessionMO (CoreDataGeneratedAccessors)
+
 - (void)addPages:(NSSet*)value_;
 - (void)removePages:(NSSet*)value_;
 - (void)addPagesObject:(PageMO*)value_;
 - (void)removePagesObject:(PageMO*)value_;
-- (NSMutableSet*)pagesSet;
-
 
 @end

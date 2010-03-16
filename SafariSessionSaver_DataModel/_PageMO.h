@@ -4,24 +4,31 @@
 #import <CoreData/CoreData.h>
 
 
-
 @class SessionMO;
 
+@interface PageMOID : NSManagedObjectID {}
+@end
 
 @interface _PageMO : NSManagedObject {}
++ (id)insertInManagedObjectContext:(NSManagedObjectContext*)moc_;
+- (PageMOID*)objectID;
 
 
-- (NSString*)url;
-- (void)setUrl:(NSString*)value_;
+
+@property (nonatomic, retain) NSString *url;
 
 //- (BOOL)validateUrl:(id*)value_ error:(NSError**)error_;
 
 
 
 
-- (SessionMO*)newRelationship;
-- (void)setNewRelationship:(SessionMO*)value_;
+@property (nonatomic, retain) SessionMO* newRelationship;
 //- (BOOL)validateNewRelationship:(id*)value_ error:(NSError**)error_;
 
+
+
+@end
+
+@interface _PageMO (CoreDataGeneratedAccessors)
 
 @end

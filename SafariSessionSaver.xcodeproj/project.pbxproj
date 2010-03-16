@@ -22,15 +22,14 @@
 /* Begin PBXBuildFile section */
 		770B37ED0679A11B001EADE2 /* SafariSessionSaver_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* SafariSessionSaver_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* SafariSessionSaver_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* SafariSessionSaver_AppDelegate.m */; };
-		7960EDD90D00D5F600BD62A1 /* PageMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960EDD80D00D5F600BD62A1 /* PageMO.m */; };
-		7960EDDB0D00D5F600BD62A1 /* SessionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960EDDA0D00D5F600BD62A1 /* SessionMO.m */; };
-		7960EDDD0D00D5F600BD62A1 /* _PageMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960EDDC0D00D5F600BD62A1 /* _PageMO.m */; };
-		7960EDDF0D00D5F600BD62A1 /* _SessionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960EDDE0D00D5F600BD62A1 /* _SessionMO.m */; };
 		7960EDF20D00DB7400BD62A1 /* SafariSessionSaver.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = 7960EDEF0D00DB6700BD62A1 /* SafariSessionSaver.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
 		7960EE150D00DBD700BD62A1 /* NSAppleScript+CallHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960EE130D00DBD700BD62A1 /* NSAppleScript+CallHandler.m */; };
 		7960EE180D00DBF800BD62A1 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7960EE170D00DBF800BD62A1 /* Carbon.framework */; };
-		7960EE220D00DCE800BD62A1 /* CoreData+JRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960EE200D00DCE800BD62A1 /* CoreData+JRExtensions.m */; };
 		7960EE870D00E21300BD62A1 /* NSTableView+CocoaBindingsDeleteKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7960EE860D00E21300BD62A1 /* NSTableView+CocoaBindingsDeleteKey.m */; };
+		79672240114F448F00F4596F /* PageMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 7967223F114F448F00F4596F /* PageMO.m */; };
+		79672242114F448F00F4596F /* SessionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 79672241114F448F00F4596F /* SessionMO.m */; };
+		79672246114F448F00F4596F /* _PageMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 79672245114F448F00F4596F /* _PageMO.m */; };
+		79672248114F449000F4596F /* _SessionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 79672247114F449000F4596F /* _SessionMO.m */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -45,22 +44,24 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* SafariSessionSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariSessionSaver_Prefix.pch; sourceTree = "<group>"; };
-		770B37EC0679A11B001EADE2 /* SafariSessionSaver_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SafariSessionSaver_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		770B37EC0679A11B001EADE2 /* SafariSessionSaver_DataModel.xcdatamodel */ = {isa = PBXFileReference; comments = xmod; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SafariSessionSaver_DataModel.xcdatamodel; sourceTree = "<group>"; };
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* SafariSessionSaver_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariSessionSaver_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* SafariSessionSaver_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariSessionSaver_AppDelegate.m; sourceTree = "<group>"; };
-		7960EDD80D00D5F600BD62A1 /* PageMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageMO.m; sourceTree = "<group>"; };
-		7960EDDA0D00D5F600BD62A1 /* SessionMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionMO.m; sourceTree = "<group>"; };
-		7960EDDC0D00D5F600BD62A1 /* _PageMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _PageMO.m; sourceTree = "<group>"; };
-		7960EDDE0D00D5F600BD62A1 /* _SessionMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _SessionMO.m; sourceTree = "<group>"; };
 		7960EDEF0D00DB6700BD62A1 /* SafariSessionSaver.applescript */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.applescript; path = SafariSessionSaver.applescript; sourceTree = "<group>"; };
 		7960EE130D00DBD700BD62A1 /* NSAppleScript+CallHandler.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSAppleScript+CallHandler.m"; sourceTree = "<group>"; };
 		7960EE140D00DBD700BD62A1 /* NSAppleScript+CallHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSAppleScript+CallHandler.h"; sourceTree = "<group>"; };
 		7960EE170D00DBF800BD62A1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		7960EE1E0D00DCA000BD62A1 /* nsenumerate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = nsenumerate.h; sourceTree = "<group>"; };
-		7960EE200D00DCE800BD62A1 /* CoreData+JRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "CoreData+JRExtensions.m"; path = "../CoreData+JRExtensions/CoreData+JRExtensions.m"; sourceTree = "<group>"; };
-		7960EE210D00DCE800BD62A1 /* CoreData+JRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "CoreData+JRExtensions.h"; path = "../CoreData+JRExtensions/CoreData+JRExtensions.h"; sourceTree = "<group>"; };
-		7960EE860D00E21300BD62A1 /* NSTableView+CocoaBindingsDeleteKey.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSTableView+CocoaBindingsDeleteKey.m"; path = "../NSTableView+CocoaBindingsDeleteKey/NSTableView+CocoaBindingsDeleteKey.m"; sourceTree = "<group>"; };
+		7960EE860D00E21300BD62A1 /* NSTableView+CocoaBindingsDeleteKey.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSTableView+CocoaBindingsDeleteKey.m"; sourceTree = "<group>"; };
+		7967223F114F448F00F4596F /* PageMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageMO.m; sourceTree = "<group>"; };
+		79672241114F448F00F4596F /* SessionMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionMO.m; sourceTree = "<group>"; };
+		79672243114F448F00F4596F /* PageMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageMO.h; sourceTree = "<group>"; };
+		79672244114F448F00F4596F /* SessionMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionMO.h; sourceTree = "<group>"; };
+		79672245114F448F00F4596F /* _PageMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _PageMO.m; sourceTree = "<group>"; };
+		79672247114F449000F4596F /* _SessionMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _SessionMO.m; sourceTree = "<group>"; };
+		79672249114F449000F4596F /* _PageMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _PageMO.h; sourceTree = "<group>"; };
+		7967224A114F449000F4596F /* _SessionMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _SessionMO.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SafariSessionSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariSessionSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,8 +87,6 @@
 				7960EE860D00E21300BD62A1 /* NSTableView+CocoaBindingsDeleteKey.m */,
 				7960EE130D00DBD700BD62A1 /* NSAppleScript+CallHandler.m */,
 				7960EE140D00DBD700BD62A1 /* NSAppleScript+CallHandler.h */,
-				7960EE200D00DCE800BD62A1 /* CoreData+JRExtensions.m */,
-				7960EE210D00DCE800BD62A1 /* CoreData+JRExtensions.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -174,10 +173,14 @@
 		7960EDD70D00D5EA00BD62A1 /* SafariSessionSaver_DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				7960EDD80D00D5F600BD62A1 /* PageMO.m */,
-				7960EDDA0D00D5F600BD62A1 /* SessionMO.m */,
-				7960EDDC0D00D5F600BD62A1 /* _PageMO.m */,
-				7960EDDE0D00D5F600BD62A1 /* _SessionMO.m */,
+				7967223F114F448F00F4596F /* PageMO.m */,
+				79672241114F448F00F4596F /* SessionMO.m */,
+				79672243114F448F00F4596F /* PageMO.h */,
+				79672244114F448F00F4596F /* SessionMO.h */,
+				79672245114F448F00F4596F /* _PageMO.m */,
+				79672247114F449000F4596F /* _SessionMO.m */,
+				79672249114F449000F4596F /* _PageMO.h */,
+				7967224A114F449000F4596F /* _SessionMO.h */,
 			);
 			path = SafariSessionSaver_DataModel;
 			sourceTree = "<group>";
@@ -210,9 +213,11 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "SafariSessionSaver" */;
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* SafariSessionSaver */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* SafariSessionSaver */,
 			);
@@ -239,13 +244,12 @@
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				77C8280E06725ACE000B614F /* SafariSessionSaver_AppDelegate.m in Sources */,
 				770B37ED0679A11B001EADE2 /* SafariSessionSaver_DataModel.xcdatamodel in Sources */,
-				7960EDD90D00D5F600BD62A1 /* PageMO.m in Sources */,
-				7960EDDB0D00D5F600BD62A1 /* SessionMO.m in Sources */,
-				7960EDDD0D00D5F600BD62A1 /* _PageMO.m in Sources */,
-				7960EDDF0D00D5F600BD62A1 /* _SessionMO.m in Sources */,
 				7960EE150D00DBD700BD62A1 /* NSAppleScript+CallHandler.m in Sources */,
-				7960EE220D00DCE800BD62A1 /* CoreData+JRExtensions.m in Sources */,
 				7960EE870D00E21300BD62A1 /* NSTableView+CocoaBindingsDeleteKey.m in Sources */,
+				79672240114F448F00F4596F /* PageMO.m in Sources */,
+				79672242114F448F00F4596F /* SessionMO.m in Sources */,
+				79672246114F448F00F4596F /* _PageMO.m in Sources */,
+				79672248114F449000F4596F /* _SessionMO.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +320,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 			};
 			name = Debug;
 		};
@@ -327,7 +331,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
 			};
 			name = Release;
 		};
