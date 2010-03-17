@@ -30,6 +30,7 @@
 		79672242114F448F00F4596F /* SessionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 79672241114F448F00F4596F /* SessionMO.m */; };
 		79672246114F448F00F4596F /* _PageMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 79672245114F448F00F4596F /* _PageMO.m */; };
 		79672248114F449000F4596F /* _SessionMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 79672247114F449000F4596F /* _SessionMO.m */; };
+		799339E111506FEF00C7DE31 /* safarisaver.icns in Resources */ = {isa = PBXBuildFile; fileRef = 799339E011506FEF00C7DE31 /* safarisaver.icns */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -62,6 +63,7 @@
 		79672247114F449000F4596F /* _SessionMO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _SessionMO.m; sourceTree = "<group>"; };
 		79672249114F449000F4596F /* _PageMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _PageMO.h; sourceTree = "<group>"; };
 		7967224A114F449000F4596F /* _SessionMO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _SessionMO.h; sourceTree = "<group>"; };
+		799339E011506FEF00C7DE31 /* safarisaver.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = safarisaver.icns; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SafariSessionSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariSessionSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -144,6 +146,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				799339E011506FEF00C7DE31 /* safarisaver.icns */,
 				7960EDEF0D00DB6700BD62A1 /* SafariSessionSaver.applescript */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -231,6 +234,7 @@
 			files = (
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				799339E111506FEF00C7DE31 /* safarisaver.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
